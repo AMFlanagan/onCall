@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/afl13/.nvm/versions/node/v4.2.3/bin/node /usr/local/bin/yarn add html-webpack-plugin
+
+PATH: 
+  ./vendor/bin:/Users/afl13/.nvm/versions/node/v4.2.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  0.23.2
+
+Node version: 
+  4.2.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "onCall",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/AMFlanagan/onCall.git",
+    "author": "Adam Flanagan <adam.flanagan@skybettingandgaming.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND npm.skybet.net npm.skybet.net:5984
+      at errnoException (dns.js:26:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
